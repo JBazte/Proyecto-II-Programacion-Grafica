@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Name: Wind
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 21300000, guid: 48b49548816a7e64094c1c7556d7c88e, type: 3}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: e68cd159f426c804bbaa95e6a0c866be, type: 3}
+    - {fileID: 21300000, guid: 4f307c36e4ff1d043b7efd4ba6182b00, type: 3}
+    - {fileID: 21300000, guid: 6d97e1ef2a5f9fc4e93a718aa4f67bb1, type: 3}
+    - {fileID: 21300000, guid: 10fd7de45a218574a99ffb6e28918f5d, type: 3}
+    - {fileID: 21300000, guid: b32c9024d4b859a4ba0616c2bd2bd4bd, type: 3}
+    - {fileID: 21300000, guid: 1c0045f4cc56207449a57ad5c137ac29, type: 3}
+    - {fileID: 21300000, guid: 9320dc47e77f75c498a45918b40a70ac, type: 3}
+    - {fileID: 21300000, guid: 011c535b1cf704f4da67bb04c072d2bb, type: 3}
+    - {fileID: 21300000, guid: 8e3e2866cd18f4b468a95c8b9ff1c2d1, type: 3}
+    - {fileID: 21300000, guid: 34af2687954640147b34feddfff9ea2d, type: 3}
+    - {fileID: 21300000, guid: 0199072f2b9a2b14383cdb7fefda78e3, type: 3}
+    - {fileID: 21300000, guid: b7fc69e933eeeb84a828cfa8f0cf06e7, type: 3}
+    - {fileID: 21300000, guid: 07ab18768f7867c48bc578d5867800af, type: 3}
+    - {fileID: 21300000, guid: 07b3f169ad11cea4990da52f256a9702, type: 3}
+    - {fileID: 21300000, guid: 93540cb46e28bfe4b9ad593d63b7c8fe, type: 3}
+    - {fileID: 21300000, guid: cebeea3c89121c4478c59ec26806c8fe, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 10
+    m_MaxAnimationSpeed: 10
+    m_PerlinScale: 0.5
+    m_Output: 2
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 
+    m_NeighborPositions: []
+    m_RuleTransform: 0

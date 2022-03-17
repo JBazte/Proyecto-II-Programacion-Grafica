@@ -659,11 +659,9 @@ GameObject:
   - component: {fileID: 8009040390419683006}
   - component: {fileID: 7902460327508269570}
   - component: {fileID: 7902157452822057980}
-  - component: {fileID: 7779930668131029933}
-  - component: {fileID: 4878472361056969685}
-  - component: {fileID: 1019673936104447}
   - component: {fileID: 1019673936104448}
   - component: {fileID: 4055059448513168869}
+  - component: {fileID: 1587960423}
   m_Layer: 0
   m_Name: Contador Imagen
   m_TagString: Untagged
@@ -756,102 +754,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &7779930668131029933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7800144163596920554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2102c0a2b2dd2c449a04fa63c24c7986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valor: 3
-  multiplicador: 1
-  alertarSiAlcanzaValor: 1
-  valorObjetivo: 2
-  comparacion: 1
-  siAlcanzaCifra:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 260298632}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &4878472361056969685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7800144163596920554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2102c0a2b2dd2c449a04fa63c24c7986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valor: 3
-  multiplicador: 1
-  alertarSiAlcanzaValor: 1
-  valorObjetivo: 1
-  comparacion: 1
-  siAlcanzaCifra:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 826507535}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1019673936104447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7800144163596920554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2102c0a2b2dd2c449a04fa63c24c7986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  valor: 3
-  multiplicador: 1
-  alertarSiAlcanzaValor: 1
-  valorObjetivo: 0
-  comparacion: 0
-  siAlcanzaCifra:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UP_FuncGestionEscenas, Assembly-CSharp
-        m_MethodName: UP_CargarEscena
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Lose
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!212 &1019673936104448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -922,3 +824,61 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1587960423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800144163596920554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1aa15ced8508cd42b259b1b8ea35edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valor: 4
+  siAlcanzaCifra:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 260298632}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  siAlcanzaCifra1:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 826507535}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  siAlcanzaCifra2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UP_FuncGestionEscenas, Assembly-CSharp
+        m_MethodName: UP_CargarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Lose
+          m_BoolArgument: 0
+        m_CallState: 2
